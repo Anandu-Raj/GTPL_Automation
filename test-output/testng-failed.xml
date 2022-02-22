@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testgtpl(failed)">
+    <parameter name="Userid" value="mngr384305"/>
+    <parameter name="url" value="https://demo.guru99.com/V1"/>
+    <parameter name="Password" value="epAruhE"/>
+    <classes>
+      <class name="Test_GTPLBank.Test_GTPL">
+        <methods>
+          <include name="homepageGTPL"/>
+          <include name="stop"/>
+          <include name="MiniStatement"/>
+          <include name="checkUrl"/>
+          <include name="password"/>
+          <include name="UserID"/>
+          <include name="driverInstance1"/>
+        </methods>
+      </class> <!-- Test_GTPLBank.Test_GTPL -->
+    </classes>
+  </test> <!-- Testgtpl(failed) -->
+</suite> <!-- Failed suite [Suite] -->
