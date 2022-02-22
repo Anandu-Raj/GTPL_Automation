@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="try1" value=""/>
+    <parameter name="uid" value="mngr382174"/>
+    <parameter name="ECPTitle" value="Gtpl Bank Edit Customer Page"/>
+    <parameter name="try2" value="12345"/>
+    <parameter name="DCPTitle" value="Gtpl Bank Delete Customer Page"/>
+    <parameter name="HPTitle" value="GTPL Bank Manager HomePage"/>
+    <parameter name="pword" value="gEvyrAb"/>
+    <parameter name="LPTitle" value="GTPL Bank Home Page"/>
+    <parameter name="try5" value="65978"/>
+    <parameter name="url" value="https://demo.guru99.com/V1/"/>
+    <parameter name="try3" value="sud@123"/>
+    <parameter name="try4" value="65 978"/>
+    <classes>
+      <class name="test.TestGTPLDelete">
+        <methods>
+          <include name="driverInstance1"/>
+          <include name="driverInstance2"/>
+          <include name="deleteCustomerFormTitleTest"/>
+        </methods>
+      </class> <!-- test.TestGTPLDelete -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

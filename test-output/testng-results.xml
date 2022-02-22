@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="23" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-22T16:55:13 IST" name="Suite" finished-at="2022-02-22T16:56:35 IST" duration-ms="81904">
+    <groups>
+    </groups>
+    <test started-at="2022-02-22T16:55:13 IST" name="Test" finished-at="2022-02-22T16:56:35 IST" duration-ms="81904">
+      <class name="test.TestGTPLDelete">
+        <test-method is-config="true" signature="driverInstance1(java.lang.String)[pri:0, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:55:54 IST" name="driverInstance1" finished-at="2022-02-22T16:56:00 IST" duration-ms="6282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.guru99.com/V1/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstance1 -->
+        <test-method signature="loginPageTitleTest(java.lang.String)[pri:0, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:00 IST" name="loginPageTitleTest" finished-at="2022-02-22T16:56:00 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTPL Bank Home Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="EnterCredentialsTest(java.lang.String,java.lang.String)[pri:1, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:00 IST" name="EnterCredentialsTest" finished-at="2022-02-22T16:56:01 IST" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr382174]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gEvyrAb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCredentialsTest -->
+        <test-method signature="submitCredentialsTest()[pri:2, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:01 IST" name="submitCredentialsTest" finished-at="2022-02-22T16:56:03 IST" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitCredentialsTest -->
+        <test-method signature="homePageTitleTest(java.lang.String)[pri:3, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:03 IST" name="homePageTitleTest" finished-at="2022-02-22T16:56:03 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTPL Bank Manager HomePage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="deleteCustomerMenuTest()[pri:4, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:03 IST" name="deleteCustomerMenuTest" finished-at="2022-02-22T16:56:05 IST" duration-ms="2395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerMenuTest -->
+        <test-method signature="deleteCustomerPageTitleTest(java.lang.String)[pri:5, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:05 IST" name="deleteCustomerPageTitleTest" finished-at="2022-02-22T16:56:05 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gtpl Bank Delete Customer Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerPageTitleTest -->
+        <test-method signature="deleteCustomerFormTitleTest()[pri:6, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:05 IST" name="deleteCustomerFormTitleTest" finished-at="2022-02-22T16:56:26 IST" duration-ms="20517" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: (//*[text()='Delete Customer Form'])[1] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAHM23E', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\THIS_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d5ccc417407656a66bd23677c1b48c1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//*[text()='Delete Customer Form'])[1] (tried for 20 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GAHM23E', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\THIS_L~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62110}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9d5ccc417407656a66bd23677c1b48c1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at deleteCustomerObjects.GTPLDeleteCustomerPage.deleteCustomerFormTitle(GTPLDeleteCustomerPage.java:36)
+at test.TestGTPLDelete.deleteCustomerFormTitleTest(TestGTPLDelete.java:71)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerFormTitleTest -->
+        <test-method signature="customerIDTitleAndInputDTest()[pri:7, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:26 IST" name="customerIDTitleAndInputDTest" finished-at="2022-02-22T16:56:26 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerIDTitleAndInputDTest -->
+        <test-method signature="SubmitButtonDTest()[pri:8, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:26 IST" name="SubmitButtonDTest" finished-at="2022-02-22T16:56:28 IST" duration-ms="1909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitButtonDTest -->
+        <test-method signature="ResetButtonDTest()[pri:9, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:28 IST" name="ResetButtonDTest" finished-at="2022-02-22T16:56:28 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetButtonDTest -->
+        <test-method signature="inputFormatDTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:28 IST" name="inputFormatDTest" finished-at="2022-02-22T16:56:34 IST" duration-ms="5408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sud@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[65 978]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[65978]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputFormatDTest -->
+        <test-method signature="HomeLinkDTest()[pri:11, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:34 IST" name="HomeLinkDTest" finished-at="2022-02-22T16:56:34 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLinkDTest -->
+        <test-method is-config="true" signature="driverInstance2()[pri:0, instance:test.TestGTPLDelete@12aba8be]" started-at="2022-02-22T16:56:34 IST" name="driverInstance2" finished-at="2022-02-22T16:56:35 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstance2 -->
+      </class> <!-- test.TestGTPLDelete -->
+      <class name="test.TestGTPLEdit">
+        <test-method is-config="true" signature="driverInstance1(java.lang.String)[pri:0, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:13 IST" name="driverInstance1" finished-at="2022-02-22T16:55:22 IST" duration-ms="9355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://demo.guru99.com/V1/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstance1 -->
+        <test-method signature="loginPageTitleTest(java.lang.String)[pri:0, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:22 IST" name="loginPageTitleTest" finished-at="2022-02-22T16:55:22 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTPL Bank Home Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method signature="EnterCredentialsTest(java.lang.String,java.lang.String)[pri:1, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:22 IST" name="EnterCredentialsTest" finished-at="2022-02-22T16:55:23 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr382174]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gEvyrAb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCredentialsTest -->
+        <test-method signature="submitCredentialsTest()[pri:2, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:23 IST" name="submitCredentialsTest" finished-at="2022-02-22T16:55:25 IST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitCredentialsTest -->
+        <test-method signature="homePageTitleTest(java.lang.String)[pri:3, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:25 IST" name="homePageTitleTest" finished-at="2022-02-22T16:55:25 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GTPL Bank Manager HomePage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method signature="editCustomerMenuTest()[pri:4, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:25 IST" name="editCustomerMenuTest" finished-at="2022-02-22T16:55:28 IST" duration-ms="3099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomerMenuTest -->
+        <test-method signature="editCustomerPageTitleTest(java.lang.String)[pri:5, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:28 IST" name="editCustomerPageTitleTest" finished-at="2022-02-22T16:55:28 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gtpl Bank Edit Customer Page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomerPageTitleTest -->
+        <test-method signature="editCustomerFormTitleTest()[pri:6, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:28 IST" name="editCustomerFormTitleTest" finished-at="2022-02-22T16:55:28 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCustomerFormTitleTest -->
+        <test-method signature="customerIDTitleAndInputTest()[pri:7, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:28 IST" name="customerIDTitleAndInputTest" finished-at="2022-02-22T16:55:29 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerIDTitleAndInputTest -->
+        <test-method signature="SubmitButtonTest()[pri:8, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:29 IST" name="SubmitButtonTest" finished-at="2022-02-22T16:55:30 IST" duration-ms="1150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitButtonTest -->
+        <test-method signature="ResetButtonTest()[pri:9, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:30 IST" name="ResetButtonTest" finished-at="2022-02-22T16:55:31 IST" duration-ms="517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResetButtonTest -->
+        <test-method signature="inputFormatTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:10, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:31 IST" name="inputFormatTest" finished-at="2022-02-22T16:55:53 IST" duration-ms="22281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sud@123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[65 978]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[65978]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inputFormatTest -->
+        <test-method signature="HomeLinkTest()[pri:11, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:53 IST" name="HomeLinkTest" finished-at="2022-02-22T16:55:54 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeLinkTest -->
+        <test-method is-config="true" signature="driverInstance2()[pri:0, instance:test.TestGTPLEdit@66f57048]" started-at="2022-02-22T16:55:54 IST" name="driverInstance2" finished-at="2022-02-22T16:55:54 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverInstance2 -->
+      </class> <!-- test.TestGTPLEdit -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
